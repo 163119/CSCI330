@@ -1,3 +1,14 @@
+/*
+ *	Student Name:		Christopher Aumen
+ *	Program Name:		Execute Stage of 5 Stage Pipelined Processor
+ *	Creation Date:		March 15, 2017
+ *	Last Modified Date:	Febuary 7, 2018
+ *	CSCI Course:		CSCI-330 Computer Architecture
+ *	Grade Received:		A
+ *	Comments regarding design:
+ *		This is a software representation of a processor (hardware).  The executeTB.v provides inputs to test the program
+ */
+
 module execute(pcp1, regA, regB, instr, pcpo, aluout, equalbit, muxenable, aluenable);
 
 input [31:0] pcp1;
